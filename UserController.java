@@ -26,23 +26,23 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-//	@RequestMapping("/{id}/showUser")
-//	public String showUser(@PathVariable String id, HttpServletRequest request, HttpServletResponse response){
-//		User user = userService.getUserById(id);
-//		request.setAttribute("user", user);
-//		return "showUser";
-//	}
+	@RequestMapping("/{id}/showUser")
+	public String showUser(@PathVariable String id, HttpServletRequest request, HttpServletResponse response){
+		User user = userService.getUserById(id);
+		request.setAttribute("user", user);
+		return "showUser";
+	}
 	
 	@RequestMapping("/user/showUser")
 	public String showUser(){
 		return "showUser";
 	}
 	
-	@RequestMapping("/{id}/showUser")
-	@ResponseBody
-	public User showUser(@PathVariable Long id){
-		return userService.getUserById(id);
-	}
+// 	@RequestMapping("/{id}/showUser")
+// 	@ResponseBody
+// 	public User showUser(@PathVariable Long id){
+// 		return userService.getUserById(id);
+// 	}
 	
 	@RequestMapping("/user/info")
 	public String showUserInfo(){
