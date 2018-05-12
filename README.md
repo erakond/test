@@ -1,5 +1,6 @@
 ## Welcome to GitHub Pages, my friends!
 You will see very nice scene
+Let's enjoy Beautiful scenery together!
 
 You can use the [editor on GitHub](https://github.com/erakond/test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
