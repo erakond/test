@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages, my friends!
+## Welcome to GitHub Pages, my friends!!
 You will see very nice scene
 Let's enjoy Beautiful scenery together!
 
